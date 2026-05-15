@@ -860,7 +860,7 @@ function HomePage() {
 
 export default function App() {
   return (
-    <BrowserRouter basename="/Design_SaaS_Landing_Page">
+    <BrowserRouter basename="/ReqVerdict">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/sample-report" element={<SampleReport />} />

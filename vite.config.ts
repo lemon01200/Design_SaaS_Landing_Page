@@ -17,7 +17,7 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
-  base: '/Design_SaaS_Landing_Page/',
+  base: '/ReqVerdict/',
 
   plugins: [
     figmaAssetResolver(),
