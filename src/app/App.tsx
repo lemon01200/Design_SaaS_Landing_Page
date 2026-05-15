@@ -860,7 +860,7 @@ function HomePage() {
 
 export default function App() {
   return (
-  <BrowserRouter basename={import.meta.env.BASE_URL}>      
+    <BrowserRouter basename="/Design_SaaS_Landing_Page">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/sample-report" element={<SampleReport />} />
